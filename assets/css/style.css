@@ -1,0 +1,29 @@
+header{
+    
+    background-color:black;
+    color:#ffffff;
+    border-color: #cccccc;
+    
+}
+
+body{
+    margin:0;
+   
+    display:table;
+    height:100%;
+    width:100;
+}
+
+.wrapper{
+    
+    padding: 20px;
+    height: auto;
+}
+
+footer{
+    
+    background-color: slategrey;
+    
+    display:table-row;
+    height: 1px;
+}
