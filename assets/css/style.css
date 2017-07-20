@@ -1,29 +1,118 @@
-header{
-    
-    background-color:black;
-    color:#ffffff;
-    border-color: #cccccc;
-    
-}
-
 body{
     margin:0;
-   
+    padding:0;
     display:table;
+    background-image:url("../images/pinkDust.png");
     height:100%;
-    width:100;
+    width:100%;
+
 }
 
-.wrapper{
-    
+header{
+    background-color: #ffffff; 
+    border-bottom: 3px solid grey;
+}
+
+.links{
+    display: inline-block;
+    margin-left: 25%;
+}
+
+.myName{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #3bb7c5;
+    color: #fff;
     padding: 20px;
-    height: auto;
+    margin-left: 10%;
+}
+
+.linkText{
+    display: inline-block;
+    font-size: 16px;
+    color: grey;
+    font-weight: 100;
+    border-right: 1px solid lightgray;
+    padding-right: 10px;
+    margin-left: 4px;
+}
+
+
+.pic{
+    
+    float:left;
+    width: 100px;
+    margin-right:5px;
+    
+}
+
+.box_1{
+    
+    font-size: 10px;
+    display: inline-block;
+    width: 30%;
+    padding: 25px;
+    background-color: #ffffff;
+    margin-left: 10%;
+    margin-top:40px;
+    float: left;
+    
+}
+
+.aboutMeText{
+    
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+.box_2{
+    
+    text-align: center;
+    display: inline-block;
+    width:30%;
+    background-color: #ffffff;
+    margin-top: 40px;
+    padding: 25px;
+    margin-left:10%;
+    
+}
+
+.gitHub{
+    
+    display: inline-block;
+    float:left;
+    width: 25%;
+    
+}
+
+.linkedIn{
+    
+    display: inline-block;
+    width: 25%;
+
+}
+
+.stackOver{
+    
+    display: inline-block;
+    float:right;
+    width: 25%;
+    
 }
 
 footer{
     
     background-color: slategrey;
     
-    display:table-row;
-    height: 1px;
+    width: 100%;
+    position:fixed;
+    bottom: 0px;
+    border-top: 5px solid #3bb7c5;
+    padding: 20px;
+}
+
+.wrapper{
+    
+    text-align: center
 }
