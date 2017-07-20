@@ -19,6 +19,7 @@ header{
 }
 
 .myName{
+    font-family: 'Georgia', Times, Times New Roman, serif;
     display: inline-block;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -48,7 +49,7 @@ header{
 }
 
 .box_1{
-    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif, serif;
     font-size: 10px;
     display: inline-block;
     width: 30%;
@@ -67,7 +68,7 @@ header{
 }
 
 .box_2{
-    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif, serif;
     text-align: center;
     display: inline-block;
     width:30%;
@@ -90,7 +91,7 @@ header{
     
     display: inline-block;
     width: 25%;
-
+    margin-
 }
 
 .stackOver{
