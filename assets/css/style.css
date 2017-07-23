@@ -48,7 +48,13 @@ header{
     
 }
 
+.box_1header{
+    
+    color:#3bb7c5;
+}
+
 .box_1{
+    color:slategray;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif, serif;
     font-size: 10px;
     display: inline-block;
@@ -57,8 +63,92 @@ header{
     background-color: #ffffff;
     margin-left: 10%;
     margin-top:40px;
-    float: left;
+    float: left;  
+}
+
+.imgBackground{
     
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.imgBackground:nth-child(even) {
+  margin-right: 40px;
+}
+
+.imgBackground img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.imgBackground h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+
+/*This is to put space between email and name*/
+.box1form2{
+    display:inline-block;
+    margin-top: -15px;
+}
+/*This is to put space between message and email*/
+.box1form3{
+    display:inline-block;
+    margin-top:-10px;
+}
+
+.textArea{
+    
+    height:100px;
+    width:100%;
+    
+}
+
+/*This is to style the text box font*/
+input::placeholder{
+    color:lightgray;
+}
+/*This is for the text boxes*/
+input{
+    display: inline-block;
+    width:100%;
+    position:relative;
+    top:-10px;
+    padding: 5px 5px 5px;
+}
+/*This is for name,email,message*/
+.box1Text{
+    display:inline-block;
+    margin-left:0px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:grey;
+    font-weight: 100;
+}
+
+.submit{
+    display:inline-block;
+    background-color:#3bb7c5;
+    color: #ffffff;
+    width:35%;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid lightgray; 
+    margin-top: 10px;
 }
 
 .aboutMeText{
@@ -68,6 +158,7 @@ header{
 }
 
 .box_2{
+    color:#3bb7c5;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif, serif;
     text-align: center;
     display: inline-block;
@@ -79,6 +170,7 @@ header{
     
 }
 
+/*Connect With Me Pic Specs*/
 .gitHub{
     
     display: inline-block;
@@ -91,7 +183,7 @@ header{
     
     display: inline-block;
     width: 25%;
-    margin-
+    
 }
 
 .stackOver{
@@ -105,7 +197,6 @@ header{
 footer{
     
     background-color: slategrey;
-    
     width: 100%;
     position:fixed;
     bottom: 0px;
@@ -115,5 +206,6 @@ footer{
 
 .wrapper{
     
+    color: #cdd1d6;
     text-align: center
 }
